@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Lencería Seducción</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #d63384;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #f8c5db;
+            padding: 10px 40px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #d63384;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .producto h3 {
+            margin: 10px 0;
+            color: #d63384;
+        }
+
+        .producto p {
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #d63384;
+            color: white;
+            text-align: center;
+            padding: 20px 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lencería Seducción</h1>
+        <p>Descubre tu lado más sensual</p>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400?text=Conjunto+Rojo" alt="Conjunto Rojo">
+                <h3>Conjunto Rojo Pasión</h3>
+                <p>Encaje delicado y sensualidad pura. Tallas S, M, L.</p>
+                <p><strong>$39.99</strong></p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400?text=Babydoll+Negro" alt="Babydoll Negro">
+                <h3>Babydoll Negro Elegancia</h3>
+                <p>Transparencia y elegancia. Incluye tanga. Tallas S, M.</p>
+                <p><strong>$29.99</strong></p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x400?text=Conjunto+Rosa" alt="Conjunto Rosa">
+                <h3>Conjunto Rosa Sueños</h3>
+                <p>Suavidad y comodidad sin perder estilo. Tallas M, L, XL.</p>
+                <p><strong>$34.99</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>
+            En <strong>Lencería Seducción</strong> creemos que la sensualidad empieza por sentirse bien con una misma. 
+            Nuestra misión es ofrecerte productos de calidad, cómodos y bellos para cualquier ocasión especial.
+        </p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas o quieres hacer un pedido personalizado? Contáctanos por:</p>
+        <ul>
+            <li>Email: contacto@lenceria-seduccion.com</li>
+            <li>Instagram: <a href="#" target="_blank">@lenceria.seduccion</a></li>
+            <li>WhatsApp: +34 612 345 678</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lencería Seducción. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
